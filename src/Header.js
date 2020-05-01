@@ -22,11 +22,11 @@ const Header = () => {
 
     const toggle = () => setIsOpen(!isOpen);
     return (
-        <div>
+        <div >
             <Navbar color="light" light expand="md">
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
-                    <Nav className="mr-auto" navbar>
+                    <Nav className="mr-auto" navbar >
 {/*                        {
                             navs.map((route) => {
                                 return <NavItem key={route.path}>
@@ -39,7 +39,7 @@ const Header = () => {
                             })
                         }*/}
                         <NavItem>
-                            <NavLink>
+                            <NavLink >
                                 <Link to="/">
                                     Anasayfa
                                 </Link>

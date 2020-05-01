@@ -21,6 +21,10 @@ const navs = [
         path: "/hakkinda",
         title: "Hakkinda"
     },
+    {
+        path: "/detail/Cleophas",
+        title: "Cleophas"
+    },
 ];
 
 
